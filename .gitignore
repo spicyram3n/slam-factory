@@ -1,0 +1,79 @@
+# =========================
+# ROS 2 Workspace
+# =========================
+
+# Build / install / logs
+build/
+install/
+log/
+
+# Colcon
+.colcon/
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# C++
+# =========================
+
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# ROS / Gazebo
+# =========================
+
+*.db3
+*.bag
+*.bag.active
+
+# Gazebo generated files
+gazebo_models/
+
+# =========================
+# Data / Outputs
+# =========================
+
+data/
+Data/
+datasets/
+outputs/
+results/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
